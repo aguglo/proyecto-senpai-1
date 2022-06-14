@@ -1,0 +1,517 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.logo > img {
+width: 70%;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 350px;    
+}
+
+li {
+    padding: 0px 100px 0px 0px
+    
+}
+.menu {
+    list-style-type:none;
+    
+}
+
+.signin {
+  border-radius: 28px;
+  color: white;
+  background-color: #5227cc;
+  border: 5px solid #5227cc;
+  font-size: 70%;
+}
+.manos{
+    position: relative;
+    text-align: center;
+    width: 486.19;
+    margin: 0px;
+}
+.manos > img {
+    width: 100%;
+    height: 100%;
+}
+
+.centrado{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.centrado > h1 {
+    margin: 20px;
+}
+
+.grid-container{
+   
+    background-color: #5298ff;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center; 
+    text-align: center; 
+    padding: 5em;      
+}
+
+.segundoh2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.imgoficina> img {
+    width: 38em;
+    
+}
+
+.imgvoluntariado> img {
+    width: 38em;
+}
+
+/* Seccion nosotros parte 2 */
+
+.oportunidades> h2,p {
+   text-align: center;
+   margin-top: 4em;
+}
+
+.flexoportunidades{
+    display: flex;
+    gap: 1.5em; 
+    margin: 4em 8em 6em 8em;  
+}
+
+.servoluntario{
+    background-color: #dc3545;
+    width: 25%;
+}
+
+.donar{
+    background-color: #ff9c07;
+    width: 25%;
+}
+
+.reciclar{
+    background-color: #28a745;
+    width: 25%;
+}
+
+.llamadoslaborales{
+    background-color: #17a2b8;
+    width: 25%;
+}
+
+.servoluntario> img, 
+.donar> img,
+.reciclar> img,
+.llamadoslaborales> img{
+    margin-left: 1em;
+}
+
+.servoluntario{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 5%;
+    justify-items: center;
+    align-items: center;
+}
+
+.servoluntario> h2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+}
+
+.servoluntario> div{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.donar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 5%;
+    justify-items: center;
+    align-items: center;
+}
+
+.donar> h2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+}
+
+.donar> div{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.reciclar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 5%;
+    justify-items: center;
+    align-items: center;
+}
+
+.reciclar> h2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+}
+
+.reciclar> div{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+
+.llamadoslaborales{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 5%;
+    justify-items: center;
+    align-items: center;
+}
+
+.llamadoslaborales> h2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+}
+
+.llamadoslaborales> div{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+/* Seccion noticias */
+
+.noticias{
+    background-color: #5298ff;
+    text-align: center;
+    color: white;
+    padding: 5em;
+}
+
+.noticias> h1, p{
+    margin: 0%;
+}
+
+
+
+.flexNoticias{
+    background-color: #5298ff;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    font-size: 80%;
+    padding: 2em;
+    color: black;
+}
+
+.noticia1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5%;
+    justify-items: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+}
+
+.noticia1> img{
+    width: 300px;
+    border-radius: 5%;
+}
+
+.iconos>div{
+    display: flex;
+    flex-direction: row;
+    }
+
+
+.iconos{
+    display: flex;
+    flex-direction: row;   
+}
+
+.noticia2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5%;
+    justify-items: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+}
+
+.noticia2> img{
+    width: 300px;
+    border-radius: 5%;
+}
+
+.iconos>div{
+    display: flex;
+    flex-direction: row;
+    }
+
+
+.iconos{
+    display: flex;
+    flex-direction: row;   
+}
+
+.noticia3{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5%;
+    justify-items: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+}
+
+.noticia3> img{
+    width: 300px;
+    border-radius: 5%;
+}
+
+.iconos>div{
+    display: flex;
+    flex-direction: row;
+    }
+
+
+.iconos{
+    display: flex;
+    flex-direction: row;   
+}
+
+.noticia4{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5%;
+    justify-items: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+}
+
+.noticia4> img{
+    width: 300px;
+    border-radius: 5%;
+    height: 50.7%;
+}
+
+.iconos>div{
+    display: flex;
+    flex-direction: row;
+    }
+
+
+.iconos{
+    display: flex;
+    flex-direction: row;   
+}
+
+/* Seccion contacto */
+
+.contacto{
+background-color: white;
+display: flex;
+}
+.divContactanos {
+    height: fit-content;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 100px;
+}
+.contactanos {
+    font-size: xx-large;
+}
+.formulario{
+   margin-top: 200px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+
+.imagenEscritorio> img{
+    width: 35em;   
+    margin-left: 5em;
+    margin-top: 5em;
+    margin-bottom: 6em;
+    margin-right: 1em;
+
+}
+.divFormulario1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px;
+}
+.divMensaje {
+    display: flex;
+    flex-direction: column;
+}
+.divMensaje > input {
+    margin-top: 20px;
+}
+
+
+
+.enviar{
+    border-radius: 28px;
+    color: white;
+    background-color: #5227cc;
+    border: 5px solid #5227cc;
+    font-size: 70%;
+} 
+
+/* Seccion footer */
+
+.footer{
+    background-color: #5227cc;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.menufooter> ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 80%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.logofooter> img{
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-bottom: 4em;
+    
+}
+
+.seguinos> h4{
+    font-size: 80%;
+    margin-right: 3em;
+    margin-top: 3em;
+}
+
+
+
+/* Estilos del popup */
+
+.overlay {
+    background-color: rgba(42,51,66,.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+.overlay.active {
+    visibility: visible;
+}
+.popup {
+    background-color: white;
+    border-radius: 5%;
+    width: 850px;
+    height: 450px;
+    padding: 0px;
+
+} 
+.btn-cerrar-popup {
+    font-size: 20px;    
+    display: inline;    
+    color: black;
+    margin: 0px; 
+    text-align: right;
+    float: right;
+}
+
+.btn-cerrar-popup:hover {
+    color: pink;
+}
+
+.imagenPopUp{
+    margin: 0px;
+}
+
+.imagenPopUp> img{
+    display: flex;
+    justify-content: left;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 450px; 
+    height: 450px;
+    left: 0%;    
+}
+
+.maletin{
+    background-color: #5298ff;
+    height: 130px;
+    width: 70px;
+    border-radius: 5%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.maletin> img{
+    display: flex;
+    width: 60px;
+
+    
+}
+
+.miEmpresa{
+    background-color: white;
+    display: grid;
+    border-radius: 5%;
+    float: right;
+    
+}
+
+.textoEmpresa{
+    display: grid;
+    
+}
+
+.miEmpresa> h1{
+    color: #5298ff;
+}
